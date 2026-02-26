@@ -31,7 +31,8 @@ source=("https://github.com/glfw/glfw/archive/${pkgver}.tar.gz"
         "0005-Add-warning-about-being-an-unofficial-patch.patch"
         "0006-Avoid-error-on-startup.patch"
 	"0007-Fix-fullscreen-location.patch"
-	"0008-Fix-forge-crash.patch")
+	"0008-Fix-forge-crash.patch"
+	"0009-Squashed-2763-cherry-picked-on-tag-3.4.patch")
 sha512sums=('39ad7a4521267fbebc35d2ff0c389a56236ead5fa4bdff33db113bd302f70f5f2869ff4e6db1979512e1542813292dff5a482e94dfce231750f0746c301ae9ed'
             '00a6731d5e22162bcfb4e9672b3f819f5331b05c96fb61ba62b65a676c4e36af6460f66fe9974f575fc6f48ae277ee67a7b5db98342963e65018ccdc11ac1f71'
             'e2a4640154fb5755f5f7fdcf3ca4ac1b8ccef9a61599b49344740dd36dc03a723b8e85ed850692db1ea1048982bd392c68ea8f4eeb8475219ee052f0a9581fc5'
@@ -40,7 +41,8 @@ sha512sums=('39ad7a4521267fbebc35d2ff0c389a56236ead5fa4bdff33db113bd302f70f5f286
             '75efcc19fc167890f5e27dff5143ca7cf5d1ac1ec95f140f6797ff205c3c5a1b6bbbeea20ee6a17512f342768e1a35c8b0885778a5d4cc232898c258e87b021e'
             '409a40a8fdfd2e564d0af5042afeecebea597e2a357475248598ae2f0ff9a2a8bca217839ec30d45de0517d523e788206ce606c44101052b11d99b3bc4e38a9f'
             'aab3aa1d37dfffc1d121e12d4d8bb0b30084149d6eecb30386dd21b0ee60b10bccd660ccb0d2e3ed40661a1030f8edca59d9e354e54862c7d9bacefcd47e813e'
-	    '3526443def5762f19f3d58ef71a5314d19b1fd9abe7c528d85f8d891eb6b1e7eddc579ca8b5a85d8b13a0b55e0e3d2b1dff15e67b836f6c6f7b554501b103802')
+	        '3526443def5762f19f3d58ef71a5314d19b1fd9abe7c528d85f8d891eb6b1e7eddc579ca8b5a85d8b13a0b55e0e3d2b1dff15e67b836f6c6f7b554501b103802'
+	        'c36c489842374c2f1f415c62973c3d8733a27ffc77b9eae9f62dc8cb90e57aa19df0fe4b4a0593e4c81ed90a39a9b6597444b9d5c3ea53837d3d238e9df10487')
 
 prepare() {
   cd "$srcdir/glfw-$pkgver"
